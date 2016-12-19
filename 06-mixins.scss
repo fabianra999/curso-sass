@@ -53,7 +53,7 @@ $shadows: 1px solid red, 2px solid blue, 5px solid white, 10px solid yellow;
 
 @mixin menu(){
   list-style: none;
-  @content;
+  @content; //con este parametro se avilita el paso de nuevo contenido
 }
 
 .menu {
